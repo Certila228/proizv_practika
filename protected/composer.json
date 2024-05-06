@@ -1,0 +1,14 @@
+{
+    "name": "hex/example",
+    "description": "Description []: example package",
+    "authors": [
+        {
+            "name": "Slava",
+            "email": "slavikm200506@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "yiisoft/yii": "1.1.*"
+    }
+}
