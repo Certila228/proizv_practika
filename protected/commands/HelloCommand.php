@@ -3,6 +3,7 @@
 use GuzzleHttp\Client;
 use GuzzleHttp\RequestOptions;
 
+
 class HelloCommand extends CConsoleCommand
 {
         public function actionRun($argc = null)
@@ -16,7 +17,7 @@ class HelloCommand extends CConsoleCommand
                                         "jsonrpc" => "2.0",
                                         "method" => "currentValue.data",
                                         "params" => [
-                                                "meter" => 1234143,
+                                                "meter" => 92607,
                                                 "name" => "voltage",
                                                 "period" => [
                                                         "type" => "month",
@@ -29,11 +30,24 @@ class HelloCommand extends CConsoleCommand
                         ]
                 );
 
-                var_dump($response->getBody()->getContents());
+                $data =$response->getBody()->getContents();
+
+                $dataAsString =(string) $data;
+
+                $dataArray =json_decode($data,true);
+                $dataToSave=$dataArray['result']['data'];
+                $dataAsString =json_encode($dataToSave);
+                file_put_contents('/home/slavik/papochka2/thtoto/protected/commands/Dan.json', $dataAsString);
+             
+                $fileContent = file_get_contents('/home/slavik/papochka2/thtoto/protected/commands/Dan.json');
+                echo $fileContent;
+
+
+            
         }
 }
 
-
+?>
 
 
 
