@@ -228,3 +228,577 @@ Stack trace:
 #7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
 #8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
 
+2024/05/13 12:46:24 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/13 14:28:57 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/13 14:29:42 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/13 14:30:12 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/13 14:53:23 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/13 15:09:18 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/13 15:16:58 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/13 15:21:23 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/13 15:49:51 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/14 09:30:17 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/14 09:31:31 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/14 09:32:10 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/14 09:35:51 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/14 10:09:20 [error] [php] include(m240513_091000_create_paremeters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(414): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#5 unknown(0): MigrateCommand->actionUp()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 10:30:20 [error] [php] include(m240513_091000_create_paremeters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(414): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#5 unknown(0): MigrateCommand->actionUp()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 10:31:04 [error] [php] include(m240513_091000_create_paremeters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(414): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#5 unknown(0): MigrateCommand->actionUp()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 10:31:37 [error] [php] include(m240513_091000_create_paremeters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(414): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#5 unknown(0): MigrateCommand->actionUp()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 10:32:40 [error] [php] include(m240513_091000_create_paremeters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(414): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#5 unknown(0): MigrateCommand->actionUp()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 10:34:02 [error] [php] include(m240513_091000_create_paremeters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(414): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#5 unknown(0): MigrateCommand->actionUp()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 10:37:01 [error] [php] include(m240513_091000_create_paremeters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(414): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#5 unknown(0): MigrateCommand->actionUp()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 10:38:52 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`symbol` VARCHAR,
+	`description` VARCHAR,
+	`unit` VARCHAR(10)
+)' at line 3. The SQL statement executed was: CREATE TABLE `create_parameters_table` (
+	`parameter_id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR NOT NULL,
+	`symbol` VARCHAR,
+	`description` VARCHAR,
+	`unit` VARCHAR(10)
+).
+2024/05/14 10:38:52 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`symbol` VARCHAR,
+	`description` VARCHAR,
+	`unit` VARCHAR(10)
+)' at line 3. The SQL statement executed was: CREATE TABLE `create_parameters_table` (
+	`parameter_id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR NOT NULL,
+	`symbol` VARCHAR,
+	`description` VARCHAR,
+	`unit` VARCHAR(10)
+) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1352): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(250): CDbCommand->createTable('create_paramete...', Array, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_091000_create_parameters_table.php(8): CDbMigration->createTable('create_paramete...', Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240513_091000_create_parameters_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240513_091000_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/14 13:14:30 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`symbol` VARCHAR,
+	`description` VARCHAR,
+	`unit` VARCHAR(10)
+)' at line 3. The SQL statement executed was: CREATE TABLE `create_parameters_table` (
+	`parameter_id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR NOT NULL,
+	`symbol` VARCHAR,
+	`description` VARCHAR,
+	`unit` VARCHAR(10)
+).
+2024/05/14 13:14:30 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`symbol` VARCHAR,
+	`description` VARCHAR,
+	`unit` VARCHAR(10)
+)' at line 3. The SQL statement executed was: CREATE TABLE `create_parameters_table` (
+	`parameter_id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR NOT NULL,
+	`symbol` VARCHAR,
+	`description` VARCHAR,
+	`unit` VARCHAR(10)
+) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1352): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(250): CDbCommand->createTable('create_paramete...', Array, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_091000_create_parameters_table.php(8): CDbMigration->createTable('create_paramete...', Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240513_091000_create_parameters_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240513_091000_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/14 13:14:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`symbol` VARCHAR(10),
+	`description` VARCHAR(10),
+	`unit` VARCHAR(10)' at line 3. The SQL statement executed was: CREATE TABLE `parameters` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR NOT NULL,
+	`symbol` VARCHAR(10),
+	`description` VARCHAR(10),
+	`unit` VARCHAR(10)
+).
+2024/05/14 13:14:53 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`symbol` VARCHAR(10),
+	`description` VARCHAR(10),
+	`unit` VARCHAR(10)' at line 3. The SQL statement executed was: CREATE TABLE `parameters` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR NOT NULL,
+	`symbol` VARCHAR(10),
+	`description` VARCHAR(10),
+	`unit` VARCHAR(10)
+) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1352): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(250): CDbCommand->createTable('parameters', Array, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_091000_create_parameters_table.php(8): CDbMigration->createTable('parameters', Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240513_091000_create_parameters_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240513_091000_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/14 13:26:18 [error] [php] include(Parameter.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(12): spl_autoload_call()
+#3 unknown(0): HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 14:21:02 [error] [php] include(Parameter.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(12): spl_autoload_call()
+#3 unknown(0): HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 15:01:26 [error] [php] include(Parameter.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(12): spl_autoload_call()
+#3 unknown(0): HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 15:08:13 [error] [php] include(Parameter.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(12): spl_autoload_call()
+#3 unknown(0): HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 15:29:48 [error] [php] include(Parameter.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(12): spl_autoload_call()
+#3 unknown(0): HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 15:33:59 [error] [php] require_once(path/to/Parameter.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:6)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(6): require_once()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 15:35:12 [error] [php] require_once(/home/slavik/papochka2/thtoto/protected/models/Parameter.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:6)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(6): require_once()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/14 15:39:28 [error] [php] require_once(/home/slavik/papochka2/thtoto/protected/models/Parameter.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:6)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(6): require_once()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
