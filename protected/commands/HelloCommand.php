@@ -49,7 +49,7 @@ class HelloCommand extends CConsoleCommand
             echo 'success';
         }
         
-        public function actionRun($argc = null)
+        public function actionSaveData($argc = null)
         {
                 $client = new Client();
                 $response = $client->post(
@@ -75,21 +75,71 @@ class HelloCommand extends CConsoleCommand
 
                 $data =$response->getBody()->getContents();
 
-                $dataAsString =(string) $data;
 
                 $dataArray =json_decode($data,true);
                 $dataToSave=$dataArray['result']['data'];
-                $dataAsString =json_encode($dataToSave);
-                file_put_contents('/home/slavik/papochka2/thtoto/protected/commands/Dan.json', $dataAsString);
-             
-                $fileContent = file_get_contents('/home/slavik/papochka2/thtoto/protected/commands/Dan.json');
-                echo $fileContent;
 
 
-            
+                foreach ($dataToSave as $item) {
+                        $measurementA = new Measurement();
+                        $measurementA->timestamp = $item[0]; 
+                        $measurementA->parameter_id = 1;
+                        $measurementA->value = $item[1]; 
+                        
+                        if (!empty($item[1]) && $measurementA->validate()) { 
+                            if ($measurementA->save()) { 
+                                echo "Measurement A saved successfully.\n";
+                            } else {
+                                echo "Error saving measurement A.\n";
+                                print_r($measurementA->errors); 
+                            }
+                        } else {
+                            echo "Measurement A validation failed or parameter A is empty.\n";
+                            print_r($measurementA->errors); 
+                        }
+                    
+                    
+                        if (count($item) > 2) {
+                            $measurementB = new Measurement();
+                            $measurementB->timestamp = $item[0]; 
+                            $measurementB->parameter_id = 2; 
+                            $measurementB->value = $item[2]; 
+                            
+                            if (!empty($item[2]) && $measurementB->validate()) { 
+                                if ($measurementB->save()) { 
+                                    echo "Measurement B saved successfully.\n";
+                                } else {
+                                    echo "Error saving measurement B.\n";
+                                    print_r($measurementB->errors); 
+                                }
+                            } else {
+                                echo "Measurement B validation failed or parameter B is empty.\n";
+                                print_r($measurementB->errors); 
+                            }
+                        }
+                    
+                        if (count($item) > 3) {
+                            $measurementC = new Measurement();
+                            $measurementC->timestamp = $item[0]; 
+                            $measurementC->parameter_id = 3; 
+                            $measurementC->value = $item[3]; 
+                            if (!empty($item[3]) && $measurementC->validate()) { 
+                                if ($measurementC->save()) { 
+                                    echo "Measurement C saved successfully.\n";
+                                } else {
+                                    echo "Error saving measurement C.\n";
+                                    print_r($measurementC->errors); 
+                                }
+                            } else {
+                                echo "Measurement C validation failed or parameter C is empty.\n";
+                                print_r($measurementC->errors); 
+                            }
+                        }
+                    }
+                    
         }
+           
 }
-
 ?>
 
 
