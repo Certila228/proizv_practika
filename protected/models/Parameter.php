@@ -4,7 +4,7 @@ class Parameter extends CActiveRecord
 {
     public function tableName()
     {
-        return 'create_parameters_table';
+        return 'parameters';
     }
 
     public function rules()
@@ -19,7 +19,7 @@ class Parameter extends CActiveRecord
     public function attributeLabels()
     {
         return array(
-            'parameter_id' => 'Parameter ID',
+            'id' => 'ID',
             'name' => 'Name',
             'symbol' => 'Symbol',
             'description' => 'Description',
@@ -30,7 +30,7 @@ class Parameter extends CActiveRecord
     public function relations()
     {
         return array(
-            'measurements' => array(self::HAS_MANY, 'Measurement', 'type_id'),
+            'measurements' => array(self::HAS_MANY, 'Measurement', 'parameter_id'),
         );
     }
 

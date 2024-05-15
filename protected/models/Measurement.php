@@ -16,8 +16,8 @@ class Measurement extends CActiveRecord
     public function rules()
     {
         return array(
-            array('timestamp, type_id, value', 'required'),
-            array('type_id', 'exist', 'attributeName' => 'parameter_id', 'className' => 'Parameter'),
+            array('timestamp, parameter_id, value', 'required'),
+            array('parameter_id', 'exist', 'attributeName' => 'id', 'className' => 'Parameter'),
             array('timestamp', 'date', 'format' => 'yyyy-MM-dd hh:mm:ss'),
             array('value', 'numerical', 'integerOnly' => false, 'min' => 0, 'max' => 99999999.99),
         );
@@ -28,7 +28,7 @@ class Measurement extends CActiveRecord
         return array(
             'id' => 'ID',
             'timestamp' => 'Timestamp',
-            'type_id' => 'Type ID',
+            'parameter_id' => 'Type ID',
             'value' => 'Value',
         );
     }
@@ -36,7 +36,7 @@ class Measurement extends CActiveRecord
     public function relations()
     {
         return array(
-            'type' => array(self::BELONGS_TO, 'Parameter', 'type_id'),
+            'parameter' => array(self::BELONGS_TO, 'Parameter', 'parameter_id'),
         );
     }
 

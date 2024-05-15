@@ -3,8 +3,7 @@
 use GuzzleHttp\Client;
 use GuzzleHttp\RequestOptions;
 
-require_once('protected/models/Parameter.php');
-require_once('protected/models/Measurement.php');
+
 
 class HelloCommand extends CConsoleCommand
 {
@@ -23,7 +22,7 @@ class HelloCommand extends CConsoleCommand
         
             $measurement = new Measurement();
             $measurement->timestamp = date('Y-m-d H:i:s'); // Форматируем время как строку
-            $measurement->type_id = $parameter->id; // Используем правильное имя атрибута
+            $measurement->parameter_id = $parameter->id; // Используем правильное имя атрибута
             $measurement->value = random_int(100, 1000) * 0.1;
         
             if (!$measurement->save()) {
@@ -31,11 +30,22 @@ class HelloCommand extends CConsoleCommand
                 exit(1);
             }
         
-            if (!($measurement->type instanceof Parameter)) {
+            if (!($measurement->parameter instanceof Parameter)) {
                 echo 'Measurement type is not a Parameter';
                 exit(1);
             }
-        
+
+            $counter = new Counter();
+            $counter ->name ='test';
+            $counter->created_at=date('Y-m-d H:i:s');
+            $counter->updated_at=date('Y-m-d H:i:s');
+
+            if (!$counter->save()){
+                echo 'Counter don.t save';
+                exit(1);
+            }
+
+
             echo 'success';
         }
         

@@ -15,7 +15,7 @@ class m240513_091000_create_parameters_table extends CDbMigration
 
 	public function down()
 	{
-		
+		$this->dropTable('parameters');
 	}
 
 }

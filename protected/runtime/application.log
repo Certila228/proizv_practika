@@ -802,3 +802,981 @@ Stack trace:
 #6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
 #7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
 
+2024/05/15 09:24:22 [error] [php] require_once(protected/models/Parameter.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:6)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(6): require_once()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/15 09:26:09 [error] [php] include(Parameter.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(12): spl_autoload_call()
+#3 unknown(0): HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/15 09:32:32 [error] [php] include(Parameter.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(12): spl_autoload_call()
+#3 unknown(0): HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/15 09:33:55 [error] [php] include(Measurement.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(23): spl_autoload_call()
+#3 unknown(0): HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/15 09:35:00 [error] [php] include(Measurement.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(23): spl_autoload_call()
+#3 unknown(0): HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/15 09:35:46 [error] [php] include(Measurement.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(23): spl_autoload_call()
+#3 unknown(0): HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/15 09:36:12 [error] [exception.CException] CException: Property "Measurement.type_id" is not defined. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CComponent.php:172
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(162): CComponent->__set('type_id', '4')
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(25): CActiveRecord->__set('type_id', '4')
+#2 [internal function]: HelloCommand->actionTest()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#10 {main}
+---
+2024/05/15 09:42:00 [error] [exception.CException] CException: Property "Measurement.type_id" is not defined. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('type_id')
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('type_id')
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CValidator.php(201): CRequiredValidator->validateAttribute(Object(Measurement), 'type_id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(159): CValidator->validate(Object(Measurement), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(810): CModel->validate(NULL)
+#5 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(28): CActiveRecord->save()
+#6 [internal function]: HelloCommand->actionTest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#12 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#13 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#14 {main}
+---
+2024/05/15 09:45:03 [error] [exception.CException] CException: Property "Measurement.type_id" is not defined. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('type_id')
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('type_id')
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CValidator.php(201): CRequiredValidator->validateAttribute(Object(Measurement), 'type_id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(159): CValidator->validate(Object(Measurement), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(810): CModel->validate(NULL)
+#5 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(28): CActiveRecord->save()
+#6 [internal function]: HelloCommand->actionTest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#12 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#13 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#14 {main}
+---
+2024/05/15 09:46:11 [error] [exception.CException] CException: Property "Measurement.type_id" is not defined. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('type_id')
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('type_id')
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CValidator.php(201): CRequiredValidator->validateAttribute(Object(Measurement), 'type_id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(159): CValidator->validate(Object(Measurement), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(810): CModel->validate(NULL)
+#5 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(28): CActiveRecord->save()
+#6 [internal function]: HelloCommand->actionTest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#12 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#13 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#14 {main}
+---
+2024/05/15 09:46:19 [error] [exception.CException] CException: Property "Measurement.type_id" is not defined. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('type_id')
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('type_id')
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CValidator.php(201): CRequiredValidator->validateAttribute(Object(Measurement), 'type_id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(159): CValidator->validate(Object(Measurement), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(810): CModel->validate(NULL)
+#5 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(28): CActiveRecord->save()
+#6 [internal function]: HelloCommand->actionTest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#12 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#13 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#14 {main}
+---
+2024/05/15 09:46:45 [error] [exception.CException] CException: Property "Measurement.type_id" is not defined. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('type_id')
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('type_id')
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CValidator.php(201): CRequiredValidator->validateAttribute(Object(Measurement), 'type_id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(159): CValidator->validate(Object(Measurement), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(810): CModel->validate(NULL)
+#5 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(28): CActiveRecord->save()
+#6 [internal function]: HelloCommand->actionTest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#12 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#13 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#14 {main}
+---
+2024/05/15 09:52:59 [error] [exception.CException] CException: Property "Measurement.parametr_id" is not defined. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CComponent.php:172
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(162): CComponent->__set('parametr_id', '11')
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(25): CActiveRecord->__set('parametr_id', '11')
+#2 [internal function]: HelloCommand->actionTest()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#10 {main}
+---
+2024/05/15 09:53:11 [error] [exception.CException] CException: Property "Measurement.parametr_id" is not defined. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CComponent.php:172
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(162): CComponent->__set('parametr_id', '12')
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(25): CActiveRecord->__set('parametr_id', '12')
+#2 [internal function]: HelloCommand->actionTest()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#10 {main}
+---
+2024/05/15 09:53:25 [error] [exception.CException] CException: Property "Measurement.parametr_id" is not defined. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CComponent.php:172
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(162): CComponent->__set('parametr_id', '13')
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(25): CActiveRecord->__set('parametr_id', '13')
+#2 [internal function]: HelloCommand->actionTest()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#10 {main}
+---
+2024/05/15 09:53:37 [error] [exception.CException] CException: Property "Measurement.parametr_id" is not defined. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CComponent.php:172
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(162): CComponent->__set('parametr_id', '14')
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(25): CActiveRecord->__set('parametr_id', '14')
+#2 [internal function]: HelloCommand->actionTest()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#10 {main}
+---
+2024/05/15 09:55:00 [error] [exception.CException] CException: Property "Measurement.type_id" is not defined. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('type_id')
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveFinder.php(663): CActiveRecord->__get('type_id')
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveFinder.php(503): CJoinElement->applyLazyCondition(Object(CJoinQuery), Object(Measurement))
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(Measurement))
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(283): CActiveFinder->lazyFind(Object(Measurement))
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(143): CActiveRecord->getRelated('parameter')
+#6 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(33): CActiveRecord->__get('parameter')
+#7 [internal function]: HelloCommand->actionTest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#13 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#14 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#15 {main}
+---
+2024/05/15 11:22:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.counter' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `counter`.
+2024/05/15 11:22:39 [error] [exception.CDbException] CDbException: The table "counter" for active record class "Counter" cannot be found in the database. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php:2391
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Counter))
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(38): CActiveRecord->__construct()
+#3 [internal function]: HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#11 {main}
+---
+2024/05/15 11:28:43 [error] [php] include(requierd.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 unknown(0): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(310): class_exists()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CValidator.php(174): import()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(287): createValidator()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(260): Counter->createValidators()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(158): Counter->getValidators()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(810): Counter->validate()
+#9 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(43): Counter->save()
+#10 unknown(0): HelloCommand->actionTest()
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#13 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#14 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#15 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#16 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#17 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/15 11:42:40 [error] [php] include(requierd.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 unknown(0): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(310): class_exists()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CValidator.php(174): import()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(287): createValidator()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(260): Counter->createValidators()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(158): Counter->getValidators()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(810): Counter->validate()
+#9 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(43): Counter->save()
+#10 unknown(0): HelloCommand->actionTest()
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#13 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#14 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#15 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#16 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#17 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/15 11:48:05 [error] [php] include(requierd.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 unknown(0): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(310): class_exists()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CValidator.php(174): import()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(287): createValidator()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(260): Counter->createValidators()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(158): Counter->getValidators()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(810): Counter->validate()
+#9 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(43): Counter->save()
+#10 unknown(0): HelloCommand->actionTest()
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#13 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#14 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#15 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#16 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#17 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/15 11:49:33 [error] [php] include(requierd.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 unknown(0): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(310): class_exists()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/validators/CValidator.php(174): import()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(287): createValidator()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(260): Counter->createValidators()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CModel.php(158): Counter->getValidators()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(810): Counter->validate()
+#9 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(43): Counter->save()
+#10 unknown(0): HelloCommand->actionTest()
+#11 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#12 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#13 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#14 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#15 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#16 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#17 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/15 12:31:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_counter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_counter_id`.
+2024/05/15 12:31:01 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_counter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_counter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_counter_id', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(24): CDbMigration->dropForeignKey('fk_counter_id', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 12:31:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+).
+2024/05/15 12:31:27 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1352): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(250): CDbCommand->createTable('counter', Array, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_072150_create_counter_table.php(8): CDbMigration->createTable('counter', Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240515_072150_create_counter_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240515_072150_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 12:33:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id`.
+2024/05/15 12:33:20 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 12:33:29 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+).
+2024/05/15 12:33:29 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1352): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(250): CDbCommand->createTable('counter', Array, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_072150_create_counter_table.php(8): CDbMigration->createTable('counter', Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240515_072150_create_counter_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240515_072150_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 12:42:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id`.
+2024/05/15 12:42:49 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 12:42:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+).
+2024/05/15 12:42:59 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1352): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(250): CDbCommand->createTable('counter', Array, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_072150_create_counter_table.php(8): CDbMigration->createTable('counter', Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240515_072150_create_counter_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240515_072150_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 12:46:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id`.
+2024/05/15 12:46:08 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 12:46:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+).
+2024/05/15 12:46:17 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1352): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(250): CDbCommand->createTable('counter', Array, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_072150_create_counter_table.php(8): CDbMigration->createTable('counter', Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240515_072150_create_counter_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240515_072150_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:18:48 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id`.
+2024/05/15 13:18:48 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:19:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+).
+2024/05/15 13:19:00 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1352): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(250): CDbCommand->createTable('counter', Array, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_072150_create_counter_table.php(8): CDbMigration->createTable('counter', Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240515_072150_create_counter_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240515_072150_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:19:29 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id`.
+2024/05/15 13:19:29 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:21:41 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id`.
+2024/05/15 13:21:41 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_type_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_type_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:21:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+).
+2024/05/15 13:21:46 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'counter' already exists. The SQL statement executed was: CREATE TABLE `counter` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(10)  NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL
+) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1352): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(250): CDbCommand->createTable('counter', Array, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_072150_create_counter_table.php(8): CDbMigration->createTable('counter', Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240515_072150_create_counter_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240515_072150_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:27:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2024/05/15 13:27:47 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1824 Failed to open the referenced table 'counters'. The SQL statement executed was: ALTER TABLE `measurements` ADD CONSTRAINT `fk_counter_id` FOREIGN KEY (`counter_id`) REFERENCES `counters` (`id`).
+2024/05/15 13:27:47 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1824 Failed to open the referenced table 'counters'. The SQL statement executed was: ALTER TABLE `measurements` ADD CONSTRAINT `fk_counter_id` FOREIGN KEY (`counter_id`) REFERENCES `counters` (`id`) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1463): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(366): CDbCommand->addForeignKey('fk_counter_id', 'measurements', 'counter_id', 'counters', 'id', NULL, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_090853_add_counter_id_to_measurements_table.php(9): CDbMigration->addForeignKey('fk_counter_id', 'measurements', 'counter_id', 'counters', 'id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240515_090853_add_counter_id_to_measurements_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240515_090853_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:30:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2024/05/15 13:30:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1824 Failed to open the referenced table 'counters'. The SQL statement executed was: ALTER TABLE `measurements` ADD CONSTRAINT `fk_counter_id` FOREIGN KEY (`counter_id`) REFERENCES `counters` (`id`).
+2024/05/15 13:30:23 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1824 Failed to open the referenced table 'counters'. The SQL statement executed was: ALTER TABLE `measurements` ADD CONSTRAINT `fk_counter_id` FOREIGN KEY (`counter_id`) REFERENCES `counters` (`id`) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1463): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(366): CDbCommand->addForeignKey('fk_counter_id', 'measurements', 'counter_id', 'counters', 'id', NULL, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_090853_add_counter_id_to_measurements_table.php(9): CDbMigration->addForeignKey('fk_counter_id', 'measurements', 'counter_id', 'counters', 'id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240515_090853_add_counter_id_to_measurements_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240515_090853_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:34:32 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_premeter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_premeter_id`.
+2024/05/15 13:34:32 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_premeter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_premeter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:35:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2024/05/15 13:38:44 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1828 Cannot drop column 'counter_id': needed in a foreign key constraint 'fk_counter_id'. The SQL statement executed was: ALTER TABLE `measurements` DROP COLUMN `counter_id`.
+2024/05/15 13:38:44 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1828 Cannot drop column 'counter_id': needed in a foreign key constraint 'fk_counter_id'. The SQL statement executed was: ALTER TABLE `measurements` DROP COLUMN `counter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1417): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(316): CDbCommand->dropColumn('measurements', 'counter_id')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_090853_add_counter_id_to_measurements_table.php(14): CDbMigration->dropColumn('measurements', 'counter_id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240515_090853_add_counter_id_to_measurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240515_090853_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:51:03 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'new_database.counter'. The SQL statement executed was: DROP TABLE `counter`.
+2024/05/15 13:51:03 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'new_database.counter'. The SQL statement executed was: DROP TABLE `counter` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1375): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(275): CDbCommand->dropTable('counter')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_072150_create_counter_table.php(17): CDbMigration->dropTable('counter')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240515_072150_create_counter_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240515_072150_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:52:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'new_database.counter'. The SQL statement executed was: DROP TABLE `counter`.
+2024/05/15 13:52:35 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'new_database.counter'. The SQL statement executed was: DROP TABLE `counter` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1375): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(275): CDbCommand->dropTable('counter')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_072150_create_counter_table.php(17): CDbMigration->dropTable('counter')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240515_072150_create_counter_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240515_072150_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:53:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'new_database.counter'. The SQL statement executed was: DROP TABLE `counter`.
+2024/05/15 13:53:15 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'new_database.counter'. The SQL statement executed was: DROP TABLE `counter` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1375): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(275): CDbCommand->dropTable('counter')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_072150_create_counter_table.php(17): CDbMigration->dropTable('counter')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240515_072150_create_counter_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240515_072150_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:53:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'new_database.countes'. The SQL statement executed was: DROP TABLE `countes`.
+2024/05/15 13:53:38 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'new_database.countes'. The SQL statement executed was: DROP TABLE `countes` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1375): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(275): CDbCommand->dropTable('countes')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_072150_create_counter_table.php(17): CDbMigration->dropTable('countes')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240515_072150_create_counter_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240515_072150_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:54:40 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'new_database.countes'. The SQL statement executed was: DROP TABLE `countes`.
+2024/05/15 13:54:40 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'new_database.countes'. The SQL statement executed was: DROP TABLE `countes` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1375): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(275): CDbCommand->dropTable('countes')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240515_072150_create_counter_table.php(17): CDbMigration->dropTable('countes')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240515_072150_create_counter_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240515_072150_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:55:03 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_premeter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_premeter_id`.
+2024/05/15 13:55:03 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_premeter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_premeter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:57:07 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_counter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_counter_id`.
+2024/05/15 13:57:07 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_counter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_counter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_counter_id', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(24): CDbMigration->dropForeignKey('fk_counter_id', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 13:58:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_parameter_id`.
+2024/05/15 13:58:19 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_parameter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 14:00:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_parameter_id`.
+2024/05/15 14:00:05 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_parameter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements', 'parameter_id', 'parameters', 'id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 14:03:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_parameter_id`.
+2024/05/15 14:03:45 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_parameter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements', 'parameter_id', 'parameters', 'id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 14:05:47 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_parameter_id`.
+2024/05/15 14:05:47 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_parameter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 14:13:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_parameter_id`.
+2024/05/15 14:13:16 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_measurements_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `measurements` DROP FOREIGN KEY `fk_measurements_parameter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_measurements...', 'measurements')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240513_100324_create_mesurements_table.php(23): CDbMigration->dropForeignKey('fk_measurements...', 'measurements')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240513_100324_create_mesurements_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240513_100324_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/15 14:15:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2024/05/15 14:21:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.parameters' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `parameters`.
+2024/05/15 14:21:12 [error] [exception.CDbException] CDbException: The table "parameters" for active record class "Parameter" cannot be found in the database. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php:2391
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Parameter))
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(12): CActiveRecord->__construct()
+#3 [internal function]: HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#11 {main}
+---
+2024/05/15 14:21:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.counter' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `counter`.
+2024/05/15 14:21:32 [error] [exception.CDbException] CDbException: The table "counter" for active record class "Counter" cannot be found in the database. in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php:2391
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Counter))
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(38): CActiveRecord->__construct()
+#3 [internal function]: HelloCommand->actionTest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#11 {main}
+---
