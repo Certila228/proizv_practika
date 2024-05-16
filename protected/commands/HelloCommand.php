@@ -73,17 +73,63 @@ class HelloCommand extends CConsoleCommand
                         ]
                 );
 
-                $data =$response->getBody()->getContents();
 
-
-                $dataArray =json_decode($data,true);
-                $dataToSave=$dataArray['result']['data'];
-
+                $iso8601DateTime = "2024-05-01T00:08:08+03:00";
+                $dateTime = new DateTime($iso8601DateTime);
+                $formattedDateTime = $dateTime->format('Y-m-d H:i');
+                
+                $data = $response->getBody()->getContents();
+                $dataArray = json_decode($data, true);
+                
+               
+                $dataToSave = $dataArray['result']['data'];
+                
+                $serverName = 'localhost';
+                $userName = 'slava';
+                $password = 'password';
+                $bsname = 'new_database';
+                
+                $connected = new mysqli($serverName, $userName, $password, $bsname);
+                if ($connected->connect_error) {
+                    die('Ошибка соединения: ' . $connected->connect_error);
+                }
+                
+              
+                foreach ($dataToSave as $data) {
+                    // Проверяем, существует ли уже запись с аналогичным временем
+                    $existingMeasurement = Measurement::model()->findByAttributes(array('timestamp' => $data['0']));
+                    
+                    // Если запись с таким временем уже существует, пропускаем ее
+                    if ($existingMeasurement !== null) {
+                        echo 'Запись с временем ' . $data['0'] . ' уже существует. Пропускаем.' . PHP_EOL;
+                        continue;
+                    }
+                    
+                  
+                    $measurement = new Measurement();
+                    $measurement->timestamp = $data['0'];
+                    $measurement->value = $data['0'];
+                    
+                    // Сохраняем запись
+                    if (!$measurement->save()) {
+                        echo 'Ошибка вставки новой записи: ' . $measurement->getErrors();
+                    } else {
+                        echo 'Новая запись успешно добавлена.';
+                    }
+                }
+                
+                $connected->close();
 
                 foreach ($dataToSave as $item) {
                         $measurementA = new Measurement();
-                        $measurementA->timestamp = $item[0]; 
-                        $measurementA->parameter_id = 1;
+                        $parameter = Parameter::model()->findByPk(1);
+                        $iso8601DateTime = $item[0];
+                        $dateTime = new DateTime($iso8601DateTime);
+                        $formattedDateTime = $dateTime->format('Y-m-d H:i:s');
+
+
+                        $measurementA->timestamp = $formattedDateTime; 
+                        $measurementA->parameter_id = $parameter->id;
                         $measurementA->value = $item[1]; 
                         
                         if (!empty($item[1]) && $measurementA->validate()) { 
@@ -98,11 +144,23 @@ class HelloCommand extends CConsoleCommand
                             print_r($measurementA->errors); 
                         }
                     
-                    
+                        $parameterA = Parameter::model()->findByPk(1);
+
+                        if ($parameterA !== null) {
+                            // Объект найден, можно использовать его свойства
+                            $measurementA->parameter_id = $parameterA->id;
+                            // Другие операции с $parameterA
+                        } else {
+                            // Обработка случая, когда объект не найден
+                            echo "Parameter with ID 1 not found.\n";
+                        }
+
+                
+
                         if (count($item) > 2) {
                             $measurementB = new Measurement();
-                            $measurementB->timestamp = $item[0]; 
-                            $measurementB->parameter_id = 2; 
+                            $measurementB->timestamp = $formattedDateTime; 
+                            $measurementB->parameter_id = 1; 
                             $measurementB->value = $item[2]; 
                             
                             if (!empty($item[2]) && $measurementB->validate()) { 
@@ -118,10 +176,11 @@ class HelloCommand extends CConsoleCommand
                             }
                         }
                     
+                        
                         if (count($item) > 3) {
                             $measurementC = new Measurement();
-                            $measurementC->timestamp = $item[0]; 
-                            $measurementC->parameter_id = 3; 
+                            $measurementC->timestamp = $formattedDateTime; 
+                            $measurementC->parameter_id = 1; 
                             $measurementC->value = $item[3]; 
                             if (!empty($item[3]) && $measurementC->validate()) { 
                                 if ($measurementC->save()) { 

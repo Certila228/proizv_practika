@@ -8,6 +8,8 @@
  */
 class Measurement extends CActiveRecord
 {
+
+    
     public function tableName()
     {
         return 'measurements';
@@ -17,7 +19,7 @@ class Measurement extends CActiveRecord
     {
         return array(
             array('timestamp, parameter_id, value', 'required'),
-            array('parameter_id', 'exist', 'attributeName' => 'id', 'className' => 'Parameter'),
+            array('parameter_id', 'exist', 'attributeName' => 'id', 'className' => Parameter::class),
             array('timestamp', 'date', 'format' => 'yyyy-MM-dd hh:mm:ss'),
             array('value', 'numerical', 'integerOnly' => false, 'min' => 0, 'max' => 99999999.99),
         );
