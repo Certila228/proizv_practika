@@ -94,27 +94,26 @@ class HelloCommand extends CConsoleCommand
                     die('Ошибка соединения: ' . $connected->connect_error);
                 }
                 
-              
                 foreach ($dataToSave as $data) {
-                    // Проверяем, существует ли уже запись с аналогичным временем
-                    $existingMeasurement = Measurement::model()->findByAttributes(array('timestamp' => $data['0']));
+                   
+                    $existingMeasurement = Measurement::model()->findByAttributes(['timestamp' => $data[0]]);
                     
-                    // Если запись с таким временем уже существует, пропускаем ее
+                   
                     if ($existingMeasurement !== null) {
-                        echo 'Запись с временем ' . $data['0'] . ' уже существует. Пропускаем.' . PHP_EOL;
+                        echo 'Запись с временем ' . $data[0] . ' уже существует. Пропускаем.' . PHP_EOL;
                         continue;
                     }
-                    
-                  
+                
                     $measurement = new Measurement();
-                    $measurement->timestamp = $data['0'];
-                    $measurement->value = $data['0'];
-                    
+                    $measurement->timestamp = date('Y-m-d H:i:s', strtotime($data[0]));
+                    $measurement->value = $data[1];  
+                    $measurement->parameter_id = $data[2]; 
+                
                     // Сохраняем запись
                     if (!$measurement->save()) {
-                        echo 'Ошибка вставки новой записи: ' . $measurement->getErrors();
+                        echo 'Ошибка вставки новой записи: ' . print_r($measurement->getErrors(), true);
                     } else {
-                        echo 'Новая запись успешно добавлена.';
+                        echo 'Новая запись успешно добавлена.' . PHP_EOL;
                     }
                 }
                 
@@ -147,11 +146,11 @@ class HelloCommand extends CConsoleCommand
                         $parameterA = Parameter::model()->findByPk(1);
 
                         if ($parameterA !== null) {
-                            // Объект найден, можно использовать его свойства
+                           
                             $measurementA->parameter_id = $parameterA->id;
-                            // Другие операции с $parameterA
+                            
                         } else {
-                            // Обработка случая, когда объект не найден
+                          
                             echo "Parameter with ID 1 not found.\n";
                         }
 

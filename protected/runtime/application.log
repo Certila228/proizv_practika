@@ -1980,3 +1980,14 @@ Stack trace:
 #6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
 #7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
 
+2024/05/17 09:29:23 [error] [php] Array to string conversion (/home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:115)
+Stack trace:
+#0 unknown(0): HelloCommand->actionSaveData()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
