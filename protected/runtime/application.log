@@ -1991,3 +1991,44 @@ Stack trace:
 #6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
 #7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
 
+2024/05/17 12:35:31 [error] [php] The use statement with non-compound name 'AptHandler' has no effect (/home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:4)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(166): require_once()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#6 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/17 12:36:35 [error] [php] The use statement with non-compound name 'AptHandler' has no effect (/home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:4)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(166): require_once()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#6 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/17 12:43:25 [error] [php] The use statement with non-compound name 'AptHandler' has no effect (/home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:4)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(166): require_once()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#6 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/17 12:44:07 [error] [php] require_once(/home/slavik/papochka2/thtoto/protected/AptHandler.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:8)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(8): require_once()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
