@@ -2032,3 +2032,1020 @@ Stack trace:
 #6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
 #7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
 
+2024/05/17 15:07:58 [error] [php] Undefined index: result (/home/slavik/papochka2/thtoto/protected/WorkApi.php:44)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/SaveData.php(9): WorkApi->fetchData()
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(18): SaveData->saveApiData()
+#2 unknown(0): HelloCommand->actionSaveData()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/17 15:15:42 [error] [exception.Exception] Exception: API response does not contain 'result' key: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params"},"data":{"details":"\u0417\u043d\u0430\u0447\u0435\u043d\u0438\u0435 period.type \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442 \u0432 \u0441\u043f\u0438\u0441\u043a\u0435 \u0434\u043e\u043f\u0443\u0441\u0442\u0438\u043c\u044b\u0445 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439."},"id":1} in /home/slavik/papochka2/thtoto/protected/WorkApi.php:46
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/SaveData.php(9): WorkApi->fetchData(92607, 'voltage', Array, 5)
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(18): SaveData->saveApiData(92607, 'voltage', Array, 5)
+#2 [internal function]: HelloCommand->actionSaveData(NULL)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#10 {main}
+---
+2024/05/17 15:22:28 [error] [php] require_once(/path/to/SaveData.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:3)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(3): require_once()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/17 15:23:33 [error] [php] Invalid argument supplied for foreach() (/home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:15)
+Stack trace:
+#0 unknown(0): HelloCommand->actionSaveData()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#7 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/17 15:26:25 [error] [php] require_once(/path/to/ApiHandler.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/SaveData.php:3)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/SaveData.php(3): require_once()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#2 unknown(0): autoload()
+#3 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(11): spl_autoload_call()
+#4 unknown(0): HelloCommand->actionSaveData()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#10 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#11 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/17 15:27:13 [error] [php] require_once(/path/to/ApiHandler.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/SaveData.php:3)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/SaveData.php(3): require_once()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#2 unknown(0): autoload()
+#3 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(11): spl_autoload_call()
+#4 unknown(0): HelloCommand->actionSaveData()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#10 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#11 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/20 09:36:11 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::__construct(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 11 and exactly 4 expected in /home/slavik/papochka2/thtoto/protected/SaveData.php:7
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(11): SaveData->__construct()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 09:38:37 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::__construct(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 11 and exactly 4 expected in /home/slavik/papochka2/thtoto/protected/SaveData.php:7
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(11): SaveData->__construct()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 09:43:54 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 13 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/SaveData.php:4
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(13): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 09:47:19 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 13 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/SaveData.php:4
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(13): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 09:52:56 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 12 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/SaveData.php:5
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(12): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 09:54:28 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 9 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/SaveData.php:5
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 09:57:23 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 9 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/SaveData.php:6
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 10:04:48 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 9 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/SaveData.php:6
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveDama(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 10:05:19 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 10 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:17
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(10): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 10:06:10 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 10 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:17
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(10): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 10:07:00 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 10 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:17
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(10): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 10:07:16 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 10 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:17
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(10): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 10:08:32 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 10 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php:16
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(10): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 10:22:38 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 11 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/SaveData.php:4
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(11): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 10:24:58 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 11 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/SaveData.php:4
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(11): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 10:28:08 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function SaveData::saveData(), 0 passed in /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php on line 12 and exactly 1 expected in /home/slavik/papochka2/thtoto/protected/SaveData.php:5
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(12): SaveData->saveData()
+#1 [internal function]: HelloCommand->actionSaveData(NULL)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#9 {main}
+---
+2024/05/20 10:50:38 [error] [php] Undefined index: result (/home/slavik/papochka2/thtoto/protected/WorkApi.php:36)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): WorkApi->fetchData()
+#1 unknown(0): HelloCommand->actionSaveData()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/20 10:57:15 [error] [php] Undefined index: result (/home/slavik/papochka2/thtoto/protected/WorkApi.php:40)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): WorkApi->fetchData()
+#1 unknown(0): HelloCommand->actionSaveData()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/20 11:00:12 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/20 11:00:12 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(11): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/20 11:03:07 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/20 11:03:07 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(11): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/20 11:05:54 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/20 11:05:54 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(11): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/20 11:07:23 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/20 11:07:23 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(11): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/20 11:10:49 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/20 11:10:49 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/20 11:52:52 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`new_database`.`measurements`, CONSTRAINT `fk_measurements_parameter_id` FOREIGN KEY (`parameter_id`) REFERENCES `parameters` (`id`)). The SQL statement executed was: INSERT INTO `measurements` (`timestamp`, `value`, `parameter_id`) VALUES (:yp0, :yp1, :yp2).
+2024/05/20 11:52:52 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`new_database`.`measurements`, CONSTRAINT `fk_measurements_parameter_id` FOREIGN KEY (`parameter_id`) REFERENCES `parameters` (`id`)). The SQL statement executed was: INSERT INTO `measurements` (`timestamp`, `value`, `parameter_id`) VALUES (:yp0, :yp1, :yp2) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1083): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 /home/slavik/papochka2/thtoto/protected/SaveData.php(53): CActiveRecord->save()
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(34): SaveData->saveMeasurement('2024-05-01 00:0...', 233.04774193548, 1)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/20 11:55:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`new_database`.`measurements`, CONSTRAINT `fk_measurements_parameter_id` FOREIGN KEY (`parameter_id`) REFERENCES `parameters` (`id`)). The SQL statement executed was: INSERT INTO `measurements` (`timestamp`, `value`, `parameter_id`) VALUES (:yp0, :yp1, :yp2).
+2024/05/20 11:55:08 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`new_database`.`measurements`, CONSTRAINT `fk_measurements_parameter_id` FOREIGN KEY (`parameter_id`) REFERENCES `parameters` (`id`)). The SQL statement executed was: INSERT INTO `measurements` (`timestamp`, `value`, `parameter_id`) VALUES (:yp0, :yp1, :yp2) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1083): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 /home/slavik/papochka2/thtoto/protected/SaveData.php(53): CActiveRecord->save()
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(34): SaveData->saveMeasurement('2024-05-01 00:0...', 233.04774193548, 1)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/20 11:55:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`new_database`.`measurements`, CONSTRAINT `fk_measurements_parameter_id` FOREIGN KEY (`parameter_id`) REFERENCES `parameters` (`id`)). The SQL statement executed was: INSERT INTO `measurements` (`timestamp`, `value`, `parameter_id`) VALUES (:yp0, :yp1, :yp2).
+2024/05/20 11:55:51 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`new_database`.`measurements`, CONSTRAINT `fk_measurements_parameter_id` FOREIGN KEY (`parameter_id`) REFERENCES `parameters` (`id`)). The SQL statement executed was: INSERT INTO `measurements` (`timestamp`, `value`, `parameter_id`) VALUES (:yp0, :yp1, :yp2) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1083): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 /home/slavik/papochka2/thtoto/protected/SaveData.php(53): CActiveRecord->save()
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(34): SaveData->saveMeasurement('2024-05-01 00:0...', 233.04774193548, 1)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/20 14:42:18 [error] [php] include(m240513_091000_create_parameters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(439): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown()
+#5 unknown(0): MigrateCommand->actionDown()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/20 14:49:55 [error] [php] include(m240513_091000_create_parameters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(439): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown()
+#5 unknown(0): MigrateCommand->actionDown()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/20 14:59:05 [error] [php] include(m240513_091000_create_parameters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(439): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown()
+#5 unknown(0): MigrateCommand->actionDown()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 09:27:38 [error] [php] include(m240513_091000_create_parameters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(439): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown()
+#5 unknown(0): MigrateCommand->actionDown()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 09:49:28 [error] [php] include(m240513_091000_create_parameters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(439): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown()
+#5 unknown(0): MigrateCommand->actionDown()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 10:36:09 [error] [php] include(m240513_091000_create_parameters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(439): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown()
+#5 unknown(0): MigrateCommand->actionDown()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 10:36:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'description' at row 1. The SQL statement executed was: INSERT INTO `parameters` (`name`, `symbol`, `description`, `unit`) VALUES (:name_0, :symbol_0, :description_0, :unit_0), (:name_1, :symbol_1, :description_1, :unit_1), (:name_2, :symbol_2, :description_2, :unit_2), (:name_3, :symbol_3, :description_3, :unit_3), (:name_4, :symbol_4, :description_4, :unit_4), (:name_5, :symbol_5, :description_5, :unit_5), (:name_6, :symbol_6, :description_6, :unit_6).
+2024/05/21 10:36:16 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'description' at row 1. The SQL statement executed was: INSERT INTO `parameters` (`name`, `symbol`, `description`, `unit`) VALUES (:name_0, :symbol_0, :description_0, :unit_0), (:name_1, :symbol_1, :description_1, :unit_1), (:name_2, :symbol_2, :description_2, :unit_2), (:name_3, :symbol_3, :description_3, :unit_3), (:name_4, :symbol_4, :description_4, :unit_4), (:name_5, :symbol_5, :description_5, :unit_5), (:name_6, :symbol_6, :description_6, :unit_6) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(195): CDbCommand->execute()
+#1 /home/slavik/papochka2/thtoto/protected/migrations/m240521_065300_create_tipMeasurementa_table.php(17): CDbMigration->insertMultiple('parameters', Array)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240521_065300_create_tipMeasurementa_table->up()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240521_065300_...')
+#4 [internal function]: MigrateCommand->actionUp(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#10 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#11 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#12 {main}
+---
+2024/05/21 10:46:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2024/05/21 10:46:49 [error] [php] include(m240513_091000_create_parameters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(414): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#5 unknown(0): MigrateCommand->actionUp()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 10:47:42 [error] [php] include(m240513_091000_create_parameters_table.php): failed to open stream: No such file or directory (/home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(459): spl_autoload_call()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(414): MigrateCommand->instantiateMigration()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp()
+#5 unknown(0): MigrateCommand->actionUp()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 10:48:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'unit' cannot be null. The SQL statement executed was: INSERT INTO `parameters` (`name`, `symbol`, `description`, `unit`) VALUES (:name_0, :symbol_0, :description_0, :unit_0), (:name_1, :symbol_1, :description_1, :unit_1), (:name_2, :symbol_2, :description_2, :unit_2), (:name_3, :symbol_3, :description_3, :unit_3), (:name_4, :symbol_4, :description_4, :unit_4), (:name_5, :symbol_5, :description_5, :unit_5), (:name_6, :symbol_6, :description_6, :unit_6).
+2024/05/21 10:48:38 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'unit' cannot be null. The SQL statement executed was: INSERT INTO `parameters` (`name`, `symbol`, `description`, `unit`) VALUES (:name_0, :symbol_0, :description_0, :unit_0), (:name_1, :symbol_1, :description_1, :unit_1), (:name_2, :symbol_2, :description_2, :unit_2), (:name_3, :symbol_3, :description_3, :unit_3), (:name_4, :symbol_4, :description_4, :unit_4), (:name_5, :symbol_5, :description_5, :unit_5), (:name_6, :symbol_6, :description_6, :unit_6) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(195): CDbCommand->execute()
+#1 /home/slavik/papochka2/thtoto/protected/migrations/m240521_065300_create_tipMeasurementa_table.php(17): CDbMigration->insertMultiple('parameters', Array)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240521_065300_create_tipMeasurementa_table->up()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240521_065300_...')
+#4 [internal function]: MigrateCommand->actionUp(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#10 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#11 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#12 {main}
+---
+2024/05/21 10:49:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'unit' cannot be null. The SQL statement executed was: INSERT INTO `parameters` (`name`, `symbol`, `description`, `unit`) VALUES (:name_0, :symbol_0, :description_0, :unit_0), (:name_1, :symbol_1, :description_1, :unit_1), (:name_2, :symbol_2, :description_2, :unit_2), (:name_3, :symbol_3, :description_3, :unit_3), (:name_4, :symbol_4, :description_4, :unit_4), (:name_5, :symbol_5, :description_5, :unit_5), (:name_6, :symbol_6, :description_6, :unit_6).
+2024/05/21 10:49:33 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'unit' cannot be null. The SQL statement executed was: INSERT INTO `parameters` (`name`, `symbol`, `description`, `unit`) VALUES (:name_0, :symbol_0, :description_0, :unit_0), (:name_1, :symbol_1, :description_1, :unit_1), (:name_2, :symbol_2, :description_2, :unit_2), (:name_3, :symbol_3, :description_3, :unit_3), (:name_4, :symbol_4, :description_4, :unit_4), (:name_5, :symbol_5, :description_5, :unit_5), (:name_6, :symbol_6, :description_6, :unit_6) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(195): CDbCommand->execute()
+#1 /home/slavik/papochka2/thtoto/protected/migrations/m240521_065300_create_tipMeasurementa_table.php(17): CDbMigration->insertMultiple('parameters', Array)
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240521_065300_create_tipMeasurementa_table->up()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240521_065300_...')
+#4 [internal function]: MigrateCommand->actionUp(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#10 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#11 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#12 {main}
+---
+2024/05/21 11:39:51 [error] [php] Undefined index: result (/home/slavik/papochka2/thtoto/protected/WorkApi.php:44)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/SaveData.php(8): WorkApi->fetchData()
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#2 unknown(0): HelloCommand->actionSaveData()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 11:45:50 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/21 11:45:50 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/21 11:46:26 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/21 11:46:26 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/21 11:46:31 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/21 11:46:31 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/21 12:08:24 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/21 12:08:24 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/21 12:10:04 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/21 12:10:04 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/21 12:28:25 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/21 12:28:33 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/21 12:29:14 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/21 12:29:18 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/21 12:44:57 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/21 12:44:57 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/21 12:46:38 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1.
+2024/05/21 12:46:49 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1525 Incorrect TIMESTAMP value: '2'. The SQL statement executed was: SELECT * FROM `measurements` `t` WHERE `t`.`timestamp`=:yp0 LIMIT 1 in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1527): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/slavik/papochka2/thtoto/protected/SaveData.php(11): CActiveRecord->findByAttributes(Array)
+#4 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#5 [internal function]: HelloCommand->actionSaveData(NULL)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/21 12:50:52 [error] [php] Uninitialized string offset: 3 (/home/slavik/papochka2/thtoto/protected/SaveData.php:20)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#1 unknown(0): HelloCommand->actionSaveData()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 12:53:46 [error] [php] count(): Parameter must be an array or an object that implements Countable (/home/slavik/papochka2/thtoto/protected/SaveData.php:11)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#1 unknown(0): HelloCommand->actionSaveData()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 12:58:55 [error] [php] count(): Parameter must be an array or an object that implements Countable (/home/slavik/papochka2/thtoto/protected/SaveData.php:15)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#1 unknown(0): HelloCommand->actionSaveData()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 13:03:30 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file in /home/slavik/papochka2/thtoto/protected/SaveData.php:78
+Stack trace:
+#0 [internal function]: YiiBase::autoload('SaveData')
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): spl_autoload_call('SaveData')
+#2 [internal function]: HelloCommand->actionSaveData(NULL)
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(HelloCommand), Array)
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#10 {main}
+---
+2024/05/21 14:16:42 [error] [php] count(): Parameter must be an array or an object that implements Countable (/home/slavik/papochka2/thtoto/protected/SaveData.php:36)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#1 unknown(0): HelloCommand->actionSaveData()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 14:17:24 [error] [php] count(): Parameter must be an array or an object that implements Countable (/home/slavik/papochka2/thtoto/protected/SaveData.php:36)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#1 unknown(0): HelloCommand->actionSaveData()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 14:19:45 [error] [php] count(): Parameter must be an array or an object that implements Countable (/home/slavik/papochka2/thtoto/protected/SaveData.php:36)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#1 unknown(0): HelloCommand->actionSaveData()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/21 14:20:14 [error] [php] Undefined offset: 4 (/home/slavik/papochka2/thtoto/protected/SaveData.php:50)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#1 unknown(0): HelloCommand->actionSaveData()
+#2 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#8 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/27 09:32:58 [error] [php] Trying to get property 'id' of non-object (/home/slavik/papochka2/thtoto/protected/SaveData.php:95)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/SaveData.php(69): SaveData->saveMeasurement()
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#2 unknown(0): HelloCommand->actionSaveData()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/27 11:29:22 [error] [php] require(/home/slavik/papochka2/thtoto/protected/../config.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/WorkApi.php:15)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/WorkApi.php(15): require()
+#1 /home/slavik/papochka2/thtoto/protected/SaveData.php(23): WorkApi->__construct()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#3 unknown(0): HelloCommand->actionSaveData()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/27 11:29:50 [error] [php] require(/home/slavik/papochka2/thtoto/protected/../config.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/WorkApi.php:17)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/WorkApi.php(17): require()
+#1 /home/slavik/papochka2/thtoto/protected/SaveData.php(23): WorkApi->__construct()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#3 unknown(0): HelloCommand->actionSaveData()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/27 11:30:05 [error] [php] require(/home/slavik/papochka2/thtoto/protected/../config.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/WorkApi.php:17)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/WorkApi.php(17): require()
+#1 /home/slavik/papochka2/thtoto/protected/SaveData.php(23): WorkApi->__construct()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#3 unknown(0): HelloCommand->actionSaveData()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/27 11:30:39 [error] [php] require(/home/slavik/papochka2/thtoto/protected/protected/config.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/WorkApi.php:17)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/WorkApi.php(17): require()
+#1 /home/slavik/papochka2/thtoto/protected/SaveData.php(23): WorkApi->__construct()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#3 unknown(0): HelloCommand->actionSaveData()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/27 11:31:45 [error] [php] require(/home/slavik/papochka2/thtoto/protected/papochka2/thtoto/protected/config/config.php): failed to open stream: No such file or directory (/home/slavik/papochka2/thtoto/protected/WorkApi.php:17)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/WorkApi.php(17): require()
+#1 /home/slavik/papochka2/thtoto/protected/SaveData.php(23): WorkApi->__construct()
+#2 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#3 unknown(0): HelloCommand->actionSaveData()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#9 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#10 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/27 11:52:59 [error] [php] Undefined index: name (/home/slavik/papochka2/thtoto/protected/WorkApi.php:52)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/SaveData.php(29): WorkApi->GetData()
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#2 unknown(0): HelloCommand->actionSaveData()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+
+2024/05/27 11:54:18 [error] [php] Undefined index: data (/home/slavik/papochka2/thtoto/protected/WorkApi.php:52)
+Stack trace:
+#0 /home/slavik/papochka2/thtoto/protected/SaveData.php(29): WorkApi->GetData()
+#1 /home/slavik/papochka2/thtoto/protected/commands/HelloCommand.php(9): SaveData->saveData()
+#2 unknown(0): HelloCommand->actionSaveData()
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): HelloCommand->run()
+#5 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
+#9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
+

@@ -7,13 +7,20 @@ class WorkApi
 
 {
     private $client;
+    private $apiUrl; 
+ 
 
     public function __construct()
     {
         $this->client = new Client();
+
+        $config=require(__DIR__ . '/config/config.php');
+        $this->apiUrl = $config['apiUrl'];
+
+        
     }
 
-    public function fetchData($meterId, $dataType, $periodType, $periodValue, $limit = 5)
+    public function GetData($meterId, Parameter $parameter, $periodType, $periodValue, $limit = 5)
     {
         // Формируем параметры запроса к API
         $requestData = [
@@ -21,7 +28,7 @@ class WorkApi
             "method" => "currentValue.data",
             "params" => [
                 "meter" => $meterId,
-                "name" => $dataType,
+                "name" => $parameter->name,
                 "period" => [
                     "type" => $periodType,
                     "value" => $periodValue
@@ -41,7 +48,7 @@ class WorkApi
         $dataArray = json_decode($data, true);
 
         // Возвращаем данные
-        return $dataArray['result']['data'];
+        return $dataArray['result']['data'];;
     }
 }
 ?>

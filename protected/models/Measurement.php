@@ -3,7 +3,7 @@
 /**
  * @property int $id
  * @property string $timestamp
- * @property int $type_id
+ * @property int $parameter_id
  * @property float $value
  */
 class Measurement extends CActiveRecord
