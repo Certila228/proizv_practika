@@ -29,6 +29,7 @@ class Parameter extends CActiveRecord
     {
         return array(
             'measurements' => array(self::HAS_MANY, 'Measurement', 'parameter_id'),
+            'GroupParameters' => array(self::BELONGS_TO, 'GroupParameters', 'gropParameters_id'),
         );
     }
  

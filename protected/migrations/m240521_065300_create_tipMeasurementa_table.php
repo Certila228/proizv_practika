@@ -5,7 +5,7 @@ class m240521_065300_create_tipMeasurementa_table extends CDbMigration
 	public function up()
     {
         $parameters = [
-            ['name' => 'voltage', 'symbol' => 'Uф', 'description' => 'Фазное напряжение', 'unit' => 'В'],
+            ['name' => 'voltage a', 'symbol' => 'Uф', 'description' => 'Фазное напряжение', 'unit' => 'В'],
             ['name' => 'current', 'symbol' => 'I', 'description' => 'Сила тока', 'unit' => 'А'],
             ['name' => 'activePower', 'symbol' => 'P', 'description' => 'Активная мощность', 'unit' => 'кВт'],
             ['name' => 'reactivePower', 'symbol' => 'Q', 'description' => 'Реактивная мощность', 'unit' => 'кВАр'],

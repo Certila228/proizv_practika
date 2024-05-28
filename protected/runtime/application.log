@@ -3049,3 +3049,147 @@ Stack trace:
 #8 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once()
 #9 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once()
 
+2024/05/28 11:10:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`new_database`.`measurements`, CONSTRAINT `fk_measurements_parameter_id` FOREIGN KEY (`parameter_id`) REFERENCES `parameters` (`id`)). The SQL statement executed was: DELETE FROM `parameters` WHERE name IN ('voltage', 'current', 'activePower', 'reactivePower', 'powerFactor', 'angle', 'frequency').
+2024/05/28 11:10:37 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`new_database`.`measurements`, CONSTRAINT `fk_measurements_parameter_id` FOREIGN KEY (`parameter_id`) REFERENCES `parameters` (`id`)). The SQL statement executed was: DELETE FROM `parameters` WHERE name IN ('voltage', 'current', 'activePower', 'reactivePower', 'powerFactor', 'angle', 'frequency') in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1330): CDbCommand->execute(Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(227): CDbCommand->delete('parameters', 'name IN ('volta...', Array)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240521_065300_create_tipMeasurementa_table.php(22): CDbMigration->delete('parameters', 'name IN ('volta...')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240521_065300_create_tipMeasurementa_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240521_065300_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/28 11:11:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`new_database`.`measurements`, CONSTRAINT `fk_measurements_parameter_id` FOREIGN KEY (`parameter_id`) REFERENCES `parameters` (`id`)). The SQL statement executed was: DELETE FROM `parameters` WHERE name IN ('voltage', 'current', 'activePower', 'reactivePower', 'powerFactor', 'angle', 'frequency').
+2024/05/28 11:11:46 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`new_database`.`measurements`, CONSTRAINT `fk_measurements_parameter_id` FOREIGN KEY (`parameter_id`) REFERENCES `parameters` (`id`)). The SQL statement executed was: DELETE FROM `parameters` WHERE name IN ('voltage', 'current', 'activePower', 'reactivePower', 'powerFactor', 'angle', 'frequency') in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1330): CDbCommand->execute(Array)
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(227): CDbCommand->delete('parameters', 'name IN ('volta...', Array)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240521_065300_create_tipMeasurementa_table.php(22): CDbMigration->delete('parameters', 'name IN ('volta...')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240521_065300_create_tipMeasurementa_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240521_065300_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/28 11:59:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.Parameter' doesn't exist. The SQL statement executed was: ALTER TABLE `Parameter` DROP FOREIGN KEY `fk_grop_parameters_parameter_id`.
+2024/05/28 11:59:27 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.Parameter' doesn't exist. The SQL statement executed was: ALTER TABLE `Parameter` DROP FOREIGN KEY `fk_grop_parameters_parameter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_grop_paramet...', 'Parameter')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240528_084338_create_id_grupParameters_table.php(14): CDbMigration->dropForeignKey('fk_grop_paramet...', 'Parameter', 'parameter_id', 'parameters', 'id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240528_084338_create_id_grupParameters_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240528_084338_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/28 12:37:52 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.Parameter' doesn't exist. The SQL statement executed was: ALTER TABLE `Parameter` DROP FOREIGN KEY `fk_grop_parameters_parameter_id`.
+2024/05/28 12:37:52 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new_database.Parameter' doesn't exist. The SQL statement executed was: ALTER TABLE `Parameter` DROP FOREIGN KEY `fk_grop_parameters_parameter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_grop_paramet...', 'Parameter')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240528_084338_create_id_grupParameters_table.php(14): CDbMigration->dropForeignKey('fk_grop_paramet...', 'Parameter', 'parameter_id', 'parameters', 'id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240528_084338_create_id_grupParameters_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240528_084338_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/28 12:38:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_grop_parameters_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `parameters` DROP FOREIGN KEY `fk_grop_parameters_parameter_id`.
+2024/05/28 12:38:51 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_grop_parameters_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `parameters` DROP FOREIGN KEY `fk_grop_parameters_parameter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_grop_paramet...', 'parameters')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240528_084338_create_id_grupParameters_table.php(14): CDbMigration->dropForeignKey('fk_grop_paramet...', 'parameters')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240528_084338_create_id_grupParameters_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240528_084338_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/28 12:40:07 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_grop_parameters_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `parameters` DROP FOREIGN KEY `fk_grop_parameters_parameter_id`.
+2024/05/28 12:40:07 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk_grop_parameters_parameter_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `parameters` DROP FOREIGN KEY `fk_grop_parameters_parameter_id` in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1475): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(379): CDbCommand->dropForeignKey('fk_grop_paramet...', 'parameters')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240528_084338_create_id_grupParameters_table.php(14): CDbMigration->dropForeignKey('fk_grop_paramet...', 'parameters')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(440): m240528_084338_create_id_grupParameters_table->down()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m240528_084338_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/28 12:40:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'gropParameter_id' doesn't exist in table. The SQL statement executed was: ALTER TABLE `parameters` ADD CONSTRAINT `fk_grop_parameters_parameter_id` FOREIGN KEY (`gropParameter_id`) REFERENCES `GropParameters` (`id`).
+2024/05/28 12:40:37 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'gropParameter_id' doesn't exist in table. The SQL statement executed was: ALTER TABLE `parameters` ADD CONSTRAINT `fk_grop_parameters_parameter_id` FOREIGN KEY (`gropParameter_id`) REFERENCES `GropParameters` (`id`) in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1463): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(366): CDbCommand->addForeignKey('fk_grop_paramet...', 'parameters', 'gropParameter_i...', 'GropParameters', 'id', NULL, NULL)
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240528_084338_create_id_grupParameters_table.php(8): CDbMigration->addForeignKey('fk_grop_paramet...', 'parameters', 'gropParameter_i...', 'GropParameters', 'id')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240528_084338_create_id_grupParameters_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240528_084338_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---
+2024/05/28 12:42:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'gropParameters_id'. The SQL statement executed was: ALTER TABLE `parameters` ADD `gropParameters_id` INTEGER.
+2024/05/28 12:42:13 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'gropParameters_id'. The SQL statement executed was: ALTER TABLE `parameters` ADD `gropParameters_id` INTEGER in /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbCommand.php(1405): CDbCommand->execute()
+#1 /home/slavik/papochka2/vendor/yiisoft/yii/framework/db/CDbMigration.php(303): CDbCommand->addColumn('parameters', 'gropParameters_...', 'INTEGER')
+#2 /home/slavik/papochka2/thtoto/protected/migrations/m240528_084338_create_id_grupParameters_table.php(7): CDbMigration->addColumn('parameters', 'gropParameters_...', 'INTEGER')
+#3 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(415): m240528_084338_create_id_grupParameters_table->up()
+#4 /home/slavik/papochka2/vendor/yiisoft/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m240528_084338_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(177): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /home/slavik/papochka2/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/slavik/papochka2/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /home/slavik/papochka2/vendor/yiisoft/yii/framework/yiic.php(33): CApplication->run()
+#11 /home/slavik/papochka2/thtoto/protected/yiic.php(8): require_once('/home/slavik/pa...')
+#12 /home/slavik/papochka2/thtoto/protected/yiic(4): require_once('/home/slavik/pa...')
+#13 {main}
+---

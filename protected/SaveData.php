@@ -59,7 +59,23 @@ class SaveData
             // }
         }
     }
+          public  function savegropParameter($id,$name){
 
+         
+
+                $GropParameters= new GropParameters();
+
+                $GropParameters->id=123;
+                $GropParameters->name=$name;
+
+                if ($GropParameters->save()) {
+                    echo'Запись успешно сохранена';
+                    
+                } else 
+                {
+                   echo 'Возникла ошибка при сохранении';
+                }
+            }
 
 
     private function saveMeasurement($timestamp, $value, $parameterId)
